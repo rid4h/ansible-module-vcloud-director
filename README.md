@@ -26,7 +26,7 @@ This reposiroty packaged below two components to manage VCD,
 1. Ansible Modules
 2. Ansbile Playbooks
 
-Ansible playbooks are the client which use modules as a gateway to interact with VCD. We have written various ansible playbooks to show how to interact with VCD. We are using [ansible roles](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html) to define playbooks in modular fashion for each module. Please refer [roles](https://github.com/vmware/ansible-module-vcloud-director/tree/master/roles) and [main.yml](https://github.com/vmware/ansible-module-vcloud-director/blob/master/main.yml) to see usage.
+Ansible playbooks are the client which use modules as a gateway to interact with VCD. We have written various ansible playbooks to show how to interact with VCD. We are using [ansible roles](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html) to define playbooks in modular fashion for each module. Please refer [roles](https://github.com/rid4h/ansible-module-vcloud-director/tree/master/roles) and [main.yml](https://github.com/rid4h/ansible-module-vcloud-director/blob/master/main.yml) to see usage.
 
 ## Deployment
 
@@ -34,7 +34,7 @@ These modules may be deployed in two ways,
 
 ##### Local Deployment
 
-We may define `modules` and `module_utils` settings in `ansible.cfg` to deploy ansible modules local to a directory. We have packaged `ansible.cfg` with this repository. You may refer [this](https://github.com/vmware/ansible-module-vcloud-director/blob/master/ansible.cfg)
+We may define `modules` and `module_utils` settings in `ansible.cfg` to deploy ansible modules local to a directory. We have packaged `ansible.cfg` with this repository. You may refer [this](https://github.com/rid4h/ansible-module-vcloud-director/blob/master/ansible.cfg)
 
 ##### Global Deployment
 
@@ -45,7 +45,7 @@ We may copy `modules` and `module_utils` to below paths to deploy ansible module
 
 ## Documentation
 
-Refer [docs](https://github.com/vmware/ansible-module-vcloud-director/wiki/vCD-Ansible-Modules) to know more about available modules and their usage.
+Refer [docs](https://github.com/rid4h/ansible-module-vcloud-director/wiki/vCD-Ansible-Modules) to know more about available modules and their usage.
 
 1. vcd_catalog
 2. vcd_catalog_item
